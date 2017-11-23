@@ -1,0 +1,89 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("img/background.png");	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: arial;
+	font-size: 16px;
+}
+.container {
+	color: darkslategrey;
+	text-align: center;
+	padding: 2px;
+}
+h1, h3 {
+	font-family: "Sacramento";
+}
+h1 {
+	font-size: 100px;
+	font-size: 9vmax;
+}
+h3 {
+	font-size: 50px;
+	font-size: 4vmax;
+}
+q {
+	display: block;
+	max-width: 400px; 
+}
+span {
+	color: darkolivegreen;
+}
+.mypic {
+	display: block;
+	max-width: 250px;
+	margin: 10px auto;
+	border-radius: 50%;
+	border: 2px solid darkslategrey;
+}
+p {
+	display: block;
+	max-width: 600px;
+	margin: auto;
+}
+hr {
+	max-width: 600px;
+	margin: 5px auto;
+	border-width: 3px;
+}
+a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px;
+	font-family: arial;
+	font-size: 20px;
+	text-decoration: none;
+}
+a:link, a:visited {
+	background-color: lightgrey;
+	color: darkslategrey;
+}
+a:hover, a:active {
+	background-color: darkslategrey;
+	color: lightgrey;
+}
+@media only screen and (max-width: 600px) {
+	body {
+		background: lightgrey;
+	}
+	h1 {
+		font-size: 60px;
+		font-size: 9vmax;
+	}
+	h3 {
+		font-size: 30px;
+		font-size: 4vmax;
+	}
+	a {
+	display: block;
+	text-align: center;
+	background-color: none;
+}
+	.mypic {
+		width: 200px;
+	}
+}
